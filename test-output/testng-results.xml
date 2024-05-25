@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-25T12:45:00 IST" name="Default suite" finished-at="2024-05-25T12:47:24 IST" duration-ms="144747">
+    <groups>
+      <group name="Big Test">
+        <method signature="LoginPage.mainTest(java.util.HashMap)[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" name="mainTest" class="NewPrasanna.TestComponents.LoginPage"/>
+      </group> <!-- Big Test -->
+    </groups>
+    <test started-at="2024-05-25T12:45:00 IST" name="Default test" finished-at="2024-05-25T12:47:24 IST" duration-ms="144747">
+      <class name="NewPrasanna.TestComponents.LoginPage">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" started-at="2024-05-25T12:45:00 IST" name="startDriver" finished-at="2024-05-25T12:45:09 IST" duration-ms="9056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="EnterWrongLogins()[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" started-at="2024-05-25T12:45:09 IST" name="EnterWrongLogins" finished-at="2024-05-25T12:45:14 IST" duration-ms="5671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterWrongLogins -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" started-at="2024-05-25T12:45:15 IST" name="startDriver" finished-at="2024-05-25T12:45:22 IST" duration-ms="7920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="EnterloginDetails(java.util.HashMap)[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" started-at="2024-05-25T12:45:22 IST" name="EnterloginDetails" data-provider="getdata" finished-at="2024-05-25T12:45:30 IST" duration-ms="7771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=0000, email=prasannakumar2300@gmail.com, productName=iMac}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterloginDetails -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" started-at="2024-05-25T12:45:30 IST" name="startDriver" finished-at="2024-05-25T12:45:38 IST" duration-ms="7957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="EnterloginDetails(java.util.HashMap)[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" started-at="2024-05-25T12:45:38 IST" name="EnterloginDetails" data-provider="getdata" finished-at="2024-05-25T12:45:51 IST" duration-ms="12857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=1234, email=fhnasjknl@gmail.com, productName=MacBook Air}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterloginDetails -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" started-at="2024-05-25T12:45:51 IST" name="startDriver" finished-at="2024-05-25T12:46:00 IST" duration-ms="8654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="mainTest(java.util.HashMap)[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" started-at="2024-05-25T12:46:00 IST" name="mainTest" data-provider="getdata" finished-at="2024-05-25T12:46:41 IST" duration-ms="41033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=0000, email=prasannakumar2300@gmail.com, productName=iMac}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTest -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" started-at="2024-05-25T12:46:41 IST" name="startDriver" finished-at="2024-05-25T12:46:47 IST" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="mainTest(java.util.HashMap)[pri:0, instance:NewPrasanna.TestComponents.LoginPage@692f203f]" started-at="2024-05-25T12:46:47 IST" name="mainTest" data-provider="getdata" finished-at="2024-05-25T12:47:24 IST" duration-ms="37481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=1234, email=fhnasjknl@gmail.com, productName=MacBook Air}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTest -->
+      </class> <!-- NewPrasanna.TestComponents.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
